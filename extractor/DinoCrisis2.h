@@ -15,6 +15,20 @@ enum GEntryType
 	GET_LZSS1		// compressed texture
 };
 
+// dino crisis 2 pc entries
+enum GEntryTypePC
+{
+	GPC_DATA,
+	GPC_TEXTURE,
+	GPC_PALETTE,
+	GPC_SOUND,		// info+riff samples (SNDH+SNDB)
+	GPC_MP3,
+	GPC_LZSS0,
+	GPC_LZSS1,		// compressed texture
+	GPC_UNK,
+	GPC_LZSS2,		// another compressed texture
+};
+
 /////////////////////////////////
 // Dino crisis package system  //
 /////////////////////////////////
@@ -43,6 +57,14 @@ typedef struct tagDc2EntryGfx
 	u16 x, y;		// framebuffer coordinates
 	u16 w, h;		// framebuffer size
 } DC2_ENTRY_GFX;
+
+typedef struct tagDc2EntryMp3
+{
+	u32 type;
+	u32 size;
+	u32 id;			// bgm id
+	u32 loop;		// 1 = loop, 0 = non looping
+} DC2_ENTRY_MP3;
 
 /////////////////////////////////
 // GIAN - Dino crisis sounds   //
@@ -134,6 +156,14 @@ typedef struct tagDcm1RectMap
 	u8 uv3[2];
 } DCM1_QUADMAP;
 
+/////////////////////////////////
+// RDT - Dino crisis rooms	   //
+/////////////////////////////////
+typedef struct tagRdtHeader
+{
+	u32 rgb0, rgb1;
+} RDT_HEADER;
+
 //////////////////////////////////
 // Functions and classes		//
 //////////////////////////////////
@@ -148,12 +178,38 @@ public:
 
 	void Reset();
 
-	void Open(LPCTSTR filename);
-	void Open(u8* data);
+	void Open(LPCTSTR filename, bool is_pc = false);
+	size_t Open(u8* data);
+	size_t OpenPC(u8* data);
 
 	void ExtractRaw(LPCTSTR dest);
+	void ExtractRawPC(LPCSTR dest);
 
 	int GetIDByAddress(u32 address);
+
+	__inline size_t GetCount() { return segment.size(); }
+	int SearchByType(u32 type)
+	{
+		for (size_t i = 0, si = GetCount(); i < si; i++)
+			if (type == ent[i].type)
+				return i;
+		return -1;
+	}
+	int SearchByType(u32 type, int cnt)
+	{
+		for (size_t i = 0, c = 0, si = GetCount(); i < si; i++)
+			if (type == ent[i].type && c++ == cnt)
+				return i;
+		return -1;
+	}
+	int CountByType(u32 type)
+	{
+		int cnt = 0;
+		for (size_t i = 0, c = 0, si = GetCount(); i < si; i++)
+			if (type == ent[i].type)
+				cnt++;
+		return cnt;
+	}
 
 	std::vector<DC2_ENTRY_GENERIC> ent;
 	std::vector<u8*> segment;

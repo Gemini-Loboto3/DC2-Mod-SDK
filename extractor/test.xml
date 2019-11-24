@@ -1,0 +1,461 @@
+﻿<Strings>
+    <Text>.</Text>
+    <Text>?</Text>
+    <Text>Yes</Text>
+    <Text>No</Text>
+    <Text> </Text>
+    <Text> </Text>
+    <Text>Will you continue?</Text>
+    <Text>Will you use the Resusc. Pak?</Text>
+    <Text>REGINA</Text>
+    <Text>DYLAN</Text>
+    <Text>Not used to playing this type of game.</Text>
+    <Text>Used to playing this type of game.</Text>
+    <Text>Skilled in playing this type of game.</Text>
+    <Text>Equip and check your weapons.</Text>
+    <Text>Equip and check your Main Weapon.</Text>
+    <Text>Equip and check your Sub Weapon.</Text>
+    <Text>Use Recoveries and Items.</Text>
+    <Text>Use Recovery Items.</Text>
+    <Text>Use Items.</Text>
+    <Text>Read Files.</Text>
+    <Text>Look at Map.</Text>
+    <Text>Equip</Text>
+    <Text>Check</Text>
+    <Text>Use</Text>
+    <Text>You don't have \nany recovery items.</Text>
+    <Text>Please equip your \nMain Weapon.</Text>
+    <Text>You don't have \nany files.</Text>
+    <Text>You don't have \nany items.</Text>
+    <Text>It can't be \nused here.</Text>
+    <Text>Item already \nequipped.</Text>
+    <Text>Will you take the </Text>
+    <Text>You got the \n   </Text>
+    <Text>Unable to carry any more items.</Text>
+    <Text>You bought the \n</Text>
+    <Text>Will you buy?</Text>
+    <Text>Will you use?</Text>
+    <Text>Are you sure?</Text>
+    <Text>Choose weapon to charge.</Text>
+    <Text>Set number of ammo to buy.</Text>
+    <Text>Choose cartridge to buy.</Text>
+    <Text>Buy ammo.</Text>
+    <Text>Bought ammo.</Text>
+    <Text>Will you buy ammo?</Text>
+    <Text>Increase max ammo storage.</Text>
+    <Text>Bought cartridge.</Text>
+    <Text>Will you buy a cartridge?</Text>
+    <Text>New item has been added.</Text>
+    <Text>Due to radio wave interference, \nyou can't receive the map.</Text>
+    <Text>Set the destination.</Text>
+    <Text>Your item space is full. \nYou can't buy.</Text>
+    <Text>You need more Extinction Points.</Text>
+    <Text>You cannot buy any more \ncartridges.</Text>
+    <Text>There is nothing to buy.</Text>
+    <Text> </Text>
+    <Text> </Text>
+    <Text>There is no weapon to buy ammo \nor cartridge.</Text>
+    <Text>Choose item to use.</Text>
+    <Text>Choose file to read.</Text>
+    <Text>Buy Weapon</Text>
+    <Text>Buy Recovery</Text>
+    <Text>Buy Ammo/Magazine</Text>
+    <Text>Buy Support Item</Text>
+    <Text>Buy Weapon/Recovery/Ammo</Text>
+    <Text>Save Data in Harddisk</Text>
+    <Text>Save Data on Memory Card 1</Text>
+    <Text>Save Data on Memory Card 2</Text>
+    <Text>Main Weapon</Text>
+    <Text>Sub Weapon</Text>
+    <Text>Double handed</Text>
+    <Text>Single handed</Text>
+    <Text>???????????</Text>
+    <Text>???????????\n???????????</Text>
+    <Text>Shotgun</Text>
+    <Text>It shoots scatter \nshots.\nCapable of shooting \nenemies both close \nrange and wide range.</Text>
+    <Text>Hand gun</Text>
+    <Text>Has a very small \nrecoil action. \nYou can fire the \nweapon even while \nyou're running.</Text>
+    <Text>Rocket Launcher</Text>
+    <Text>The most destructive \nweapon.  However the \nrecoil action is too \nlarge to fire rapidly.</Text>
+    <Text>Solid Cannon</Text>
+    <Text>Destroys cells by \nway of vibration. \nEffective for a few \nseconds even after \ninitial fire.</Text>
+    <Text>Flame Launcher</Text>
+    <Text>Launches wide range \nblazes.  Effective on \ncertain kinds of plants. \nFire while you walk.</Text>
+    <Text>Submachine gun</Text>
+    <Text>A light-weight weapon, \nheld in both hands. \nShoot even while \nrunning.  However fire \npower is meager.</Text>
+    <Text>Heavy Machine gun</Text>
+    <Text>Rapid-fire and power \nare the features of \nthis large-sized \nmachine gun. \nFire while you walk.</Text>
+    <Text>Missile Pod</Text>
+    <Text>Fires 3 homing \nrockets at once. \nThe most powerful \nweapon overall.</Text>
+    <Text>Antitank Rifle</Text>
+    <Text>Penetrates through \nalmost anything. \nThe recoil is so \ntremendous you'll \nhave to stop and fire.</Text>
+    <Text>Needle gun</Text>
+    <Text>A basic underwater \nweapon. \nFires 3 needles \nsimutaneously. \nUnlimited needles.</Text>
+    <Text>Aquagrenade</Text>
+    <Text>Most powerful \nunderwater weapon. \nFires small torepedos. \nCapable of destroying \nhard materials.</Text>
+    <Text>Machete</Text>
+    <Text>Large knife, used to \nslash close range \nenemies and distance\nyourself from them.</Text>
+    <Text>Large Stungun</Text>
+    <Text>The gun puts out a \nhigh voltage shock, \nimmobilizing the \nenemy.</Text>
+    <Text>Firewall</Text>
+    <Text>It creates a wall of \nfire, enabling you to \navert from frontal \nattacks.</Text>
+    <Text> </Text>
+    <Text> </Text>
+    <Text>Shockwave</Text>
+    <Text>Shoots a wave of \nshock immobilizing \nunderwater enemies \ntemporary.</Text>
+    <Text>Chainmine</Text>
+    <Text>Fires 5 mines into the \nground blasting them \ninstantaneouly and \nturns the enemy on \nit's back.</Text>
+    <Text>Machete Improved</Text>
+    <Text>Machete with the \nheavy blade.  It has \nincreased cutting \npower.</Text>
+    <Text>Large Stungun</Text>
+    <Text>The gun puts out a \nhigher voltage shock, \nimmobilizing the \nenemy.</Text>
+    <Text>Signal bullet</Text>
+    <Text>Shoots a signal bullet \nsettig a target point \nto receive cover fire.</Text>
+    <Text>Hemostat</Text>
+    <Text>Stops the bleeding \nbut it will not \nrecover your health.</Text>
+    <Text> </Text>
+    <Text> </Text>
+    <Text>Med Pak S</Text>
+    <Text>It will recover your \nhealth only by a little.</Text>
+    <Text>Med Pak M</Text>
+    <Text>It will fully recover \nyour health but not \nstop the bleeding.</Text>
+    <Text>Med Pak L</Text>
+    <Text>It will recover your \nhealth completely and \nstop the bleeding.</Text>
+    <Text>Resusc. Pak</Text>
+    <Text>You can return to life \nwith your health fully \nrestored.</Text>
+    <Text>Food</Text>
+    <Text>It will revitalize the \nhealth of the \ndinosaur.</Text>
+    <Text>Plug</Text>
+    <Text>Plug which is needed for the \noperation of the cooling \naqueduct shutters.</Text>
+    <Text>City Keycard</Text>
+    <Text>You need this keycard to enter \nEdward City from the lakeside.</Text>
+    <Text>Research Facility Keycard</Text>
+    <Text>You need this keycard to enter \nthe Research Facility.  It's a \nshiny silverish keycard.</Text>
+    <Text>Living quarters key</Text>
+    <Text>It will open the door to \nthe living quarters.</Text>
+    <Text>Key plate</Text>
+    <Text>It can be used to unlock the \nelectronic lock in the Military \nFacility.</Text>
+    <Text>Starter Battery</Text>
+    <Text>A battery used for starting \ninstruments and equipments.</Text>
+    <Text>3rd Energy Disk</Text>
+    <Text>The disk which has all the \n3rd Energy research data. \nThis mission's target.</Text>
+    <Text>Diving Suit</Text>
+    <Text>Underwater gear made of metal. \nIt's equipped with jet propulsion \nwhich enables you to jump.</Text>
+    <Text>Gas Mask</Text>
+    <Text>It was brought from the Military \nFacility when nerve gas was used \nto battle the dinosaurs.</Text>
+    <Text>Signal Bullet</Text>
+    <Text>Shoots a signal bullet setting \na target point to receive \ncover fire. </Text>
+    <Text>Mechanic's ID Card</Text>
+    <Text>A card which verifies that you \nare a 3rd Energy Facility \nmechanic.</Text>
+    <Text>Key for the box</Text>
+    <Text>Appears to be a small key for a \ncompartment box.</Text>
+    <Text>3rd Energy Facility Keycard</Text>
+    <Text>A key needed to get into the \n3rd Energy Facility.</Text>
+    <Text>Light-weight Armor </Text>
+    <Text>By wearing the armor, \nit will reduce the damage you \nreceive by a half.</Text>
+    <Text>Inner suit</Text>
+    <Text>By wearing the suit, it will \ncompletely stop you from \nbleeding.</Text>
+    <Text>EPS Silver Card</Text>
+    <Text>It will extend the time that \nCOMBO is being displayed on the \nscreen.</Text>
+    <Text>EPS Gold Card</Text>
+    <Text>It automatically doubles the points \nyou earn.</Text>
+    <Text>Heavy Blade </Text>
+    <Text>An alloy blade which will increase \nthe power of Dylan's machete.</Text>
+    <Text>Power Battery</Text>
+    <Text>A battery which will increase \nthe power of Regina's stungun.</Text>
+    <Text>EPS Platinum Card</Text>
+    <Text>It will allow you to buy weapons \nwith unlimited ammo.</Text>
+    <Text>Velociraptor</Text>
+    <Text>Tyrannosaurus Rex</Text>
+    <Text>Pteranodon</Text>
+    <Text>Plesiosaurus</Text>
+    <Text>Giganotosaurus</Text>
+    <Text>Inostrancevia</Text>
+    <Text>Allosaurus</Text>
+    <Text>Triceratops</Text>
+    <Text>Mosasaurus</Text>
+    <Text>Oviraptor</Text>
+    <Text>Compsognathus</Text>
+    <Text>Now Loading Data.</Text>
+    <Text>Now Saving Data.</Text>
+    <Text>Now Formatting.</Text>
+    <Text>Checking Memory Card.</Text>
+    <Text> </Text>
+    <Text>Please do not remove \nthe Memory Card.</Text>
+    <Text>Please Select Memory Card.</Text>
+    <Text>There is no Memory Card. \nPlease insert Memory Card and \npress button.</Text>
+    <Text>Memory Card is not \nformatted.</Text>
+    <Text>Set a different \nMemory Card.</Text>
+    <Text>Data is broken.</Text>
+    <Text>Data is unusable.</Text>
+    <Text>No Data.</Text>
+    <Text>Unable to Load Data.</Text>
+    <Text>Unable to Save Data.</Text>
+    <Text>Unable to Format.</Text>
+    <Text>Access Error.</Text>
+    <Text>Please try again.</Text>
+    <Text>Would you like to format? </Text>
+    <Text>Select Data to Save.</Text>
+    <Text>Select Data to Load.</Text>
+    <Text>Memory Card Full. \nNo Blocks Open To Save.</Text>
+    <Text>You need 1 Block To Save.</Text>
+    <Text>Overwrite Data?</Text>
+    <Text>Save Complete.</Text>
+    <Text>Data is for another Game.</Text>
+    <Text>Unused.</Text>
+    <Text>New Memory Card has been \nInserted. \nPress Button To Check \nMemory Card.</Text>
+    <Text>Sorry This Data Has Been \nUpdated To A Higher Version. \nUnable To Use Data.</Text>
+    <Text>If you start game now, \nyou will not be able to \nSave Data. \nAre you sure you want to \nstart game?</Text>
+    <Text>Insert Memory Card and \nPress Button.</Text>
+    <Text>Set Key Configurations</Text>
+    <Text>Set Audio Configurations</Text>
+    <Text>STEREO</Text>
+    <Text>MONAURAL</Text>
+    <Text>SE VOLUME</Text>
+    <Text>BGM VOLUME</Text>
+    <Text>Set Video Configurations</Text>
+    <Text>Reset The Game</Text>
+    <Text>Exit Screen</Text>
+    <Text>Reset Game?</Text>
+    <Text>For optimal picture settings, \nadjust the brightness of your \nscreen so that the color bar \nbelow the white line can't \nbe seen.</Text>
+    <Text>Operation</Text>
+    <Text>Step Mode</Text>
+    <Text>Auto Targetting</Text>
+    <Text>Key Define</Text>
+    <Text>Decide/\nCheck/Attack</Text>
+    <Text>Sub Weapon</Text>
+    <Text>Cancel\nJet(underwater)</Text>
+    <Text>Cancel\nJet(underwater)\nStep</Text>
+    <Text>Decide/Check/Attack</Text>
+    <Text>Cancel/Jet</Text>
+    <Text>Cancel/Jet/Step</Text>
+    <Text>Sub Weapon</Text>
+    <Text>Aim</Text>
+    <Text>180 degrees turn</Text>
+    <Text>Aim change</Text>
+    <Text>Map screen</Text>
+    <Text>Sub screen</Text>
+    <Text>Pause/Option</Text>
+    <Text>Will you continue?</Text>
+    <Text>Will you use the Resusc. Pak?</Text>
+    <Text>F9 : RETURN TITLE\nOTHER KEY : CANCEL</Text>
+    <Text>F9 : EXIT GAME\nOTHER KEY : CANCEL</Text>
+    <Text>Detail</Text>
+    <Text>Patrol Ship</Text>
+    <Text>Deck</Text>
+    <Text>Deck</Text>
+    <Text>Ship Cabin</Text>
+    <Text>Cockpit Cabin</Text>
+    <Text>Jungle</Text>
+    <Text>Dock/Landing Space</Text>
+    <Text>Dock/Carrier Lot</Text>
+    <Text>Jungle/North Route ①</Text>
+    <Text>Jungle/North Route ③</Text>
+    <Text>Jungle/North Route ④</Text>
+    <Text>Jungle/North Route ②</Text>
+    <Text>Water Tower</Text>
+    <Text>Passageway to Military Facility ①</Text>
+    <Text>Passageway to Military Facility ②</Text>
+    <Text>Dock/Suspension Bridge</Text>
+    <Text>Jungle/South Route ①</Text>
+    <Text>Jungle/South Route ②</Text>
+    <Text>Passageway to Research Facility </Text>
+    <Text>Marsh/Poison Plants South Area</Text>
+    <Text>Marsh/Poison Plants North Area</Text>
+    <Text>Poison Gas Area</Text>
+    <Text>Jungle/Passage to North Route</Text>
+    <Text>Military Facility</Text>
+    <Text>Military Facility/Front</Text>
+    <Text>Military Facility/Entrance</Text>
+    <Text>Military Facility/Corridor</Text>
+    <Text>Medical Room</Text>
+    <Text>Control Room</Text>
+    <Text>Hardware Storage</Text>
+    <Text>Research Facility</Text>
+    <Text>Research Facility/Back</Text>
+    <Text>Control Shack</Text>
+    <Text>Research Facility/Entrance</Text>
+    <Text>Research Facility/Passage</Text>
+    <Text>Research Lounge</Text>
+    <Text>Power Source Room</Text>
+    <Text>Precision Lab</Text>
+    <Text>Missile Silo</Text>
+    <Text>Launch Site</Text>
+    <Text>Data Control Room</Text>
+    <Text>Missile Silo/Inside</Text>
+    <Text>Launch Control Room</Text>
+    <Text>Back Door Accessway ①</Text>
+    <Text>Back Door Accessway ②</Text>
+    <Text>Launch Site Back/Door Entrance</Text>
+    <Text>Riverside/Front of Watergate </Text>
+    <Text>Jungle/Unknown Area ①</Text>
+    <Text>Jungle/Unknown Area ②</Text>
+    <Text>Facility Area/Front</Text>
+    <Text>Waste Disposal Chamber</Text>
+    <Text>Habitat Support Facility</Text>
+    <Text>Facility Entrance</Text>
+    <Text>Superintendent's Room</Text>
+    <Text>Large Laboratory Hall</Text>
+    <Text>Oversized Transport Chamber</Text>
+    <Text>{0x0008}Gate{0x0009} Development Lab</Text>
+    <Text>3rd Energy Facility</Text>
+    <Text>3rd Energy Facility/Dock</Text>
+    <Text>3rd Energy Facility/Walkway ①</Text>
+    <Text>3rd Energy Facility/Walkway ②</Text>
+    <Text>3rd Energy Facility/Storage Space</Text>
+    <Text>3rd Energy Facility/Walkway ③</Text>
+    <Text>3rd Energy Control Room</Text>
+    <Text>Passageway to Sub-Level </Text>
+    <Text>Sub Level/Elevator</Text>
+    <Text>3rd Energy Facility/Elevator</Text>
+    <Text>3rd Energy Reactor</Text>
+    <Text>Elevator Shaft/Inside</Text>
+    <Text>Water Cir. Sys. Control Rm</Text>
+    <Text>Underwater/Transport Passageway ①</Text>
+    <Text>Underwater/Transport Passageway ②</Text>
+    <Text>Cooling Water Circulation Chamber</Text>
+    <Text>Inside Cooling Aqueduct</Text>
+    <Text>3rd Energy Reactor</Text>
+    <Text>Reactor Elevator</Text>
+    <Text>Areaway to City</Text>
+    <Text>City Front/Dock </Text>
+    <Text>City Front/Haul Road  </Text>
+    <Text>Container &amp; Materials Yard</Text>
+    <Text>Lakeside①</Text>
+    <Text>Lakeside②</Text>
+    <Text>Cave①</Text>
+    <Text>Cave③</Text>
+    <Text>Cave④</Text>
+    <Text>Comnd St./Inner Compound</Text>
+    <Text>Comnd St./Outer Perimeter</Text>
+    <Text>Jungle/Materials Handling Way</Text>
+    <Text>Cave②</Text>
+    <Text>Edward City</Text>
+    <Text>City/Living Quarters①</Text>
+    <Text>Drug Store</Text>
+    <Text>City/Living Quarters②</Text>
+    <Text>City/Warehouse Quarters</Text>
+    <Text>Outside of City/Highway</Text>
+    <Text>{0x0001}</Text>
+    <Text>Yes</Text>
+    <Text>No</Text>
+    <Text>\nThe door is locked. </Text>
+    <Text>\nIt's electronically locked. {clear}You may be able to short it \nwith Regina's stungun. </Text>
+    <Text>The ivy is wrapped around the door. {clear}You may be able to cut it \nwith Dylan's machete. </Text>
+    <Text>\nIt's electronically locked. </Text>
+    <Text>\nIt's locked. </Text>
+    <Text>\nThe door is locked on this version. </Text>
+    <Text>\nThe lock has been released. </Text>
+    <Text>Rick</Text>
+    <Text>Gail</Text>
+    <Text>Tank</Text>
+    <Text>Will you add </Text>
+    <Text>\nto Collosseum?</Text>
+    <Text>You need more Extinction Points.</Text>
+    <Text>You got an EPS Platinum Card.\nYou wil be able to buy weapons \nwith unlimited ammo.</Text>
+    <Text>A bonus game, \nDINO COLOSSEUM has been added.</Text>
+    <Text> Shoot the enemies with the \nmachine gun.Z</Text>
+    <Text> Surpress the Triceratops' attack \nusing the rifle.Z</Text>
+    <Text>An intelligence agent of S.O.R.T. \nShe is calm and rational. \nShe excels in infiltration.</Text>
+    <Text>A Special Forces TRAT member. \nA soldier with a tragic fate.</Text>
+    <Text>An intelligence agent of S.O.R.T. \nA hi-tech specialist.</Text>
+    <Text>An intelligence agent of S.O.R.T. \nA man with a heart made of \nstone.</Text>
+    <Text>An escort tank used for \nprotection when transporting \nvaluable recsources.</Text>
+    <Text>A quick and tricky carnivorous \ndino.  Attacks its enemy with its \nkick and poison spit.</Text>
+    <Text>A speedy hunter of the jungle. \nIt has many ways to attack its \nprey.</Text>
+    <Text>A four legged reptile with rock \nhard jaws and armor like skin. \nIts armor will withstand even fire.</Text>
+    <Text>A cold blooded beast with size \nand agility to its advantage. \nIts footwork will corner its prey.</Text>
+    <Text>Undisputed king of the jungle. \nRanks first in the heirarchy of \nthe food chain.</Text>
+    <Text>Ususally a tame herbivorous \ndinosaur.  Its running charge will \ndestroy everything in its way.</Text>
+    <Text>Absolutely the weakest of the \ndinos.  When in a jam, it may \ncall his friends for help.</Text>
+    <Text>Start a new game from the beginning.</Text>
+    <Text>Start from a place last saved.</Text>
+    <Text>Mini-Game Dino Colosseum</Text>
+    <Text></Text>
+    <Text></Text>
+    <Text>Annihilate all the dinosaurs \nwithin the time limit.</Text>
+    <Text>It's dinosaur versus dinosaur. \n(2 player game)</Text>
+    <Text>Return to title screen.</Text>
+    <Text> Support File</Text>
+    <Text>This file contains a few \npointers which may help you \nin the beginning of your \nmission especially when you \nbecome lost or stuck. \n                        \n        TRAT Headquarters {clear}Extinction Points \nWhen you kill your enemy \nyou will earn points called \n{0x0008}Extinction Points{0x0009}. \nOn this mission you will buy \nammo, weapons, health \nrecoveries, and other items \nusing these {0x0008}Extinction \nPoints{0x0009}. {clear}It is important for a smooth \nand successful mission that \nExtinction Points be earned \nefficiently.  However, \nExtinction Points won't do you \nany good unless you use \nthem.  We recommend \nequipping yourselves with \nthe most powerful weapon \nwhenever possible. {clear}Combo \nWhen you kill an enemy, \npoints earned will be \ndisplayed on the screen. \nIf you succeed in killing \nadditional enemies while the \npoints are being displayed \nyour credit increase rate will \ngo up.  This is called a \ncombo.  This is an important {clear}technique you should learn \nto use. {clear}Combat Technique \nBy pressing the R button \nyou can move about in \na firing stance.  You can \neven change from target to \ntarget by pressing the \nL button while holding \ndown the R button. {clear}Equipment \nThe following items will be \nshared by everyone on the \nteam.  Health recovery items, \nkey items, Extintion Points, \nMain and Sub Weapons with \nan exception of a few. {clear}During your mission, you may \ncome across instances where \nyou cannot carry any more \nhealth recovery items. \nIn these situations you \nshould use the unnecessary \nrecovery items which will \nmake space, allowing you to \ncarry another item.</Text>
+    <Text> </Text>
+    <Text> </Text>
+    <Text> </Text>
+    <Text> </Text>
+    <Text> </Text>
+    <Text> </Text>
+    <Text> </Text>
+    <Text> </Text>
+    <Text> </Text>
+    <Text> </Text>
+    <Text> </Text>
+    <Text> </Text>
+    <Text> </Text>
+    <Text> </Text>
+    <Text> </Text>
+    <Text> </Text>
+    <Text> </Text>
+    <Text> </Text>
+    <Text> </Text>
+    <Text> </Text>
+    <Text> </Text>
+    <Text> </Text>
+    <Text>Doctor's Papers, Time shift</Text>
+    <Text>Again the day has come... \nJan. 14th. This is the day \nwhen the 3rd Energy \naccident occurred and we \nwere sent to this time. \nThis is the 10th time this day \nhas come.\nAnd everytime I feel the \nsame, despair...{clear}The medical supplies from \nthe Med. room has all been \nused up in the very first\nyear.  Since then we've been \ncollecting wild plants to make \nmedicine without knowing its \neffect.  Nevertheless, they \nwere used in healing the \nwounds of the soldiers. \nAnd all we could do was to {clear}wait for the rescue.{clear}Why haven't they come to \nrescue us?  I've thought \nabout the question for \nthe past ten years and \nI have come to a conclusion. \nThe Time shift or fold \nis caused by the {0x0008}Overdrive{0x0009} \nof the 3rd Energy.  But our \ncurrent technology level \nwasn't high enough to {clear}recover the {0x0008}accident{0x0009}. \nYears of technology research \nstill would not be enough.{clear}A time error of 10 or 20 \nyears is insignificant to \na time slip of 65 million \nyears.  But that error, \nthat time difference could \nmean everything for us. \nWe should have never laid \nour hands on a toy so \ndangerous.</Text>
+    <Text>Management of Keyplates</Text>
+    <Text>This is a notification that \nnow all facility keys will be \nmanaged in this control room. \nThe colors of the lock \nterminal corresponds to \nthe colors of the key. \nMatching the colors of the \nkeys and the terminals will \nrelease the security lock.{clear}Due to security reasons, \nonly one key can be removed \nat a time.  Also, the keys' \nelectronic information is \nreprogrammed each week. \nFor this reason always \nreturn the key to the \nKey Control System after \nuse.</Text>
+    <Text>Storage Room Items</Text>
+    <Text>All instruments and \nmaterials will be tranferred \nto the research facility \ntomorrow.  Starting next \nmonth, an extensive \nexperiment will start relating \nto the Timegate.  There just \naren't enough computers to \nsave all the data. {clear}We need as many computers \nas we can gather.{clear}The Timegate's Revival \nProject has hit against a \nwall.  We hope the \nexperiment will bring about \neffective measures. \nGive all Research Facility \nKeys to Lieutenant Wolf \nof the Transport team \ntoday.{clear}The key cards are kept in a \nbox in the wall of this room. \nApproximately 250 people of \nthe soldiers' families have \nbeen moved to the living \nquarters of Edward City \nlast month. \nNow it's all up to us to \nrevive the Timegate.</Text>
+    <Text>Incineration of Plants</Text>
+    <Text>               \n               \n               \n               \n               \n               \n               \n               {clear}From recent reports it \nappears that in parts of the \njungle near the facility \nthere has been a sudden \noutbreak of poisonous plants \ncalled {0x0008}pp-34{0x0009}.  From the \nbody approximately 80 cm in \ndiameter, they continue to \nspout poisonous spores. \nOne of our members who {clear}inhaled the spores is in a \nunconscious critical state.{clear}For those of you who are \non the medicine plant sample \ncollecting team, temporary \nstop the sample collecting \nand set up a team to rid of \nthe poisonous plants. \nUse Flame Launchers \nfor this emergency operation.{clear}When doing so, remember to \nkeep your distance from \nthe target.</Text>
+    <Text>Researcher's Notebook</Text>
+    <Text>March 25th \nLately many of our guys have \nreported missing belongings. \nEspecially smaller items such \nas hand mirrors and watches. \nJust the other day, my \nsilver rocket followed the \nsame fate.  There are rumors \nthat it's the handy work \nof a tiny dinosaur.  It's got {clear}a real jivy name like {0x0008}Compy{0x0009} \nor something.{clear}               \n               \n               \n               \n               \n               \n               \n               {clear}April 3rd \nToday I heard an interesting \nstory.  Crows and other birds \nhave a peculiar behavior of \ncollecting shiny things. \nIt appears as though these \nCompys may have similar \nbehaviors.  Come to think of \nit all of the missing items \nwere all shiny things.{clear}They seem to have a lot of \nsimilarities with the birds. \nIt could be that they are \ntheir ancestors.  We haven't \nbeen able to capture any of \nthem since they are so quick \non their feet.  But if we use \ntheir behavior to our \nadvantage, then maybe...{clear}April 6th \nWe used the cage used for \nlaboratory animals and we \nwere finally able to capture \none of them.  We used \nAlan's bracelet as a bait and \ncornered him in.  The key to \ncapturing is to block \nall possible escape routes. \nIf there is even a small {clear}escape route they will not \nenter the cage.{clear}Our plan is to use this cage \nto get rid of them as fast \nas we can. The Raptors who \neat them for snacks have \nstarted to roam around this \narea.  Compys... \nwhat a nuisance.{clear}There is still two more \nweeks until the general \nresearch staff can move \ninto Edward City. \nUntil then we have to do our \nbest to protect this facililty \nfrom the dinosaurs.</Text>
+    <Text> </Text>
+    <Text> </Text>
+    <Text>Researchers Records</Text>
+    <Text>The recovery of the Timegate \nseems impossible with the \nlimited instrumentations we \nhave in this world. \nToday was supposed to have \nbeen the last hopeful \nexperiment.  However, \nthe lack of instruments \nstopped us from conducting \nthis experiment.{clear}One week ago, the Transport \nteam lead by Lieutenant Wolf \nwas supposed to bring \nus the instruments for the \nexperiment.  They never \narrived.  Something must \nhave happened in the Military \nFacility.  We still haven't \nbeen able to establish \ncommunication with them.{clear}If we still intend to pursue \nwith the experiment we need \nto go to the Missile Silo \non the other side of the \nsuspension bridge.  But the \nbridge was destroyed in a \nrecent combat.  The only \nother way to the other side \nis through the deadly poison \nzone. {clear}It is too dangerous to \neven go near the area.{clear}               \n               \n               \n               \n               \n               \n               </Text>
+    <Text>Report on Unidentified Body</Text>
+    <Text>Another dead body of a \nyouth was carried in.  As \nexpected he was not a \nresident of Edward City. \nIf this is really true then the \nonly possible conclusion is \nthat he and the others must \nhave come from another time. \nCould such a thing be \npossible?{clear}These past months youths \nabout the age of 17 or 18 \nhave shown up before us \nand attacked. \n\nCommunication with these \nyouths have not been \nsuccessful, but rather \nimpossible.{clear}               \n               \n               \n               \n               \n               \n               \n               {clear}Today we plan to remove one \nof the bodies out of the \npreservation liquid and \nconduct an autopsy. \nThe result of the autopsy \nwill be reported to \nColonel Maison who is \ndispatched at the \n3rd Energy Facility.</Text>
+    <Text>Superintendent's Will</Text>
+    <Text>I knew it would all come to \nthis. There's no way humans \nand dinosaur could ever \ncoexist. \nBut if we sacrifice our \nlives now, we would leave \na chance for the existance \nof the human race.{clear}The irony is that this whole \nfacility which we are trapped \nin was built to sustain a \nsuitable enviroment for the \ndinosaurs. \n            \nI am the superintendent of \nthe facility and I'm the only \none left. I don't belong here.{clear}There is no future for this \nworld.  The children hurt by \nthe dinosaurs have been put \ninside life-support chambers. \nI trust that the people of the \n{0x0008}past{0x0009} will take care of them. \nThe life-support chambers are \nalmighty.  It should be able \nto heal any wound, no matter \nhow critical they may be.{clear}Also the life-support \nchambers will feed \nknowledge and teach them \nabout this world.  However, \nthe chambers were originally \ndesigned for the growth of \ndinosaurs. Thus the \nknowledge fed will be limited \nto the knowledge of \ncoexisting with the dinosaurs.{clear}The tradegy is that the \nchildren will eventually lose \ntheir speaking ability.  But \ninstead they will have been \ninputted the instincts to \nprotect the dinosaurs. {clear}Today I have recorded my \nmessage for the man who \nwill definitely come here. \nWith this I have nothing \nto regret.</Text>
+    <Text>Noah's Ark Plan</Text>
+    <Text>Year 2009 \nIt all began in Bolzinia, a \nsmall republic in the southern \nsea.  The first {0x0008}Overdrive{0x0009} \nwas the beginning of \neverything. {clear}During transportation \nsomething went wrong and it \nresulted in a crack in the \nspacetime which skewed \nhistory after the \nCretaceous Era.{clear}To investigate the skewed \nbiological history after the \nCretaceous, an extensive \nexperiment was conducted \nin a global scale. \nThe result... devastating.{clear}The {0x0008}Spacetime skew{0x0009} would \ntake its effect on all living \norganisms. The Earth's \nhistory would change \ndramatically and the change \nwould wipe the human race \nfrom ever exisiting. \nThat was the conclusion of \nthe experiment.{clear}The plan was to transport the \nliving organisms of the \nCretaceous through the \nTimegate to a world with \nsimilar environments, \nfar into the future. \nAfter the crisis had passed, \nthe organisms would then be \nreturned to their original time. {clear}We called this the Noah's \nArk Plan.{clear}This was the only plan that \nwould leave any chance for \nthe existance of the human \nrace. \nWe hope that this plan is \nsuccessful and we shall \ndeclare execution of this \nplan. \n       WAPP Central Council</Text>
+    <Text>Soldier's Papers</Text>
+    <Text>It looks like this is the end \nfor us. \nAfter surviving all this time... \nand to be killed by humans. \nWho are they? \nThose people with the \nfull-face helmets and the \nrider suits.{clear}Somehow I managed to \nescape. \nBut I seem to have dropped \nthe key for this facility. \nHow foolish of me. \nI can only think of one \nplace where it might be. \nI must have dropped it \nsomewhere near the spring \nin the jungle.{clear}               \n               \n               \n               \n               \n               \n               {clear}That spring has rather a fast \ncurrent considering its small \nsize.  I must go there \nquickly or else it may drift \naway somewhere. \nThe disk I was to deliver \nColonel Maison has been \nstolen by them helmets. \nI believe the the data was \nabout some kind of autopsy.</Text>
+    <Text>Elevator Security Code</Text>
+    <Text>The security code for the \nelevator to the underwater \n3rd Energy Reactor \nhas been changed. \nThe new code # is §§§§.</Text>
+    <Text>Manager's Diary, Mechanics</Text>
+    <Text>June 2nd, 10:30PM \nTomorrow afternoon two \nmechanics are coming to this \nfacility from Edward City. \nIt is time for the annual \nmaintenance check of \nthe 3rd Energy Reactor. \nThis will be the 9th time.{clear}The instant something \nhappens to the underwater \nreactor, that is when all \nlife-lines will be cut off \nto us.  Again, all we can do \nis to pray that nothing \nwill happen.  As weird as it \nmay sound, sometimes I feel \nthat it'll do us all a favor \nif that reactor just {clear}blew up on us .{clear}June 3rd,  4:00PM \nThe mechanics who went to \nthe underwater 3rd Energy \nReactor still have not \nreturned.  They probably \nbecame their lunch.  This is \na problem.  One of the \nmechanics, Bob, has the key \nto the entrance of \nEdward City.{clear}To go from this facility to \nthe city, it is critical that \nwe get back the key. \nI guess there is no real \nchoice but to get in the \ndiving suit and go down \nmyself.  I just hope I don't \nbecome their dinner.</Text>
+    <Text>Mechanic's Note</Text>
+    <Text>To Bob, \nI heard that you were placed \nin charge of this area. \nAs a present for your new \nposition, here is a memo \nwhich may come in handy. \nIt's about restarting the \npower.{clear}When you try to initialize the \npower restarting program, it \noften stops right?  Well it's \ndue to the malfunctioning of \nthe three control terminals. \nHere are some tips to \noperate it.{clear}When you initialize the \nprogram, it quickly overloads \nand the lamp turns red, right? \nWell, when that happens all \nyou need to do is just give \nit some electric shock with \nsome kind of tool. \nIt should wake the sucker up. \nAnyway good luck.  See ya. \n                       Mike</Text>
+    <Text>Preventative Maintenance</Text>
+    <Text>As always, we'll conduct the \npreventative maintenance by \nassigning labor tasks. \nBob will be in charge of \nthe 3rd Energy Reactor \nitself. Alec will be in \ncharge of checking the \nWater Circulation System.{clear}As in previous years for the \nsafety of the mechanics, \nduring maintenance work \nmake sure to close the \nshutters for the cooling \naqueducts.  Alec will unplug \nthe plug which allows \ncontrol of the shutter and \nkeep it until Bob is done \nchecking the reactor.{clear}The other day there was an \nexplosion in the water \ncirculation chamber. \nThis explosion caused a crack \nin one of the concrete \ncolumns.  One more explosion \nwould have probably \ndestroyed it.  Remember to \nrepair that as well.</Text>
+    <Text>Soldier's scratch paper</Text>
+    <Text>---the four legged creature--- \nbullet proof armor... \nturn it over on it's back and \naim for the stomach... \nweapon capable of doing \nthat is the chain...</Text>
+    <Text>Shop Owner's Papers</Text>
+    <Text>I underestimated the idea of \ntrying to protect human \nterritory.  The plan to clean \nout the dinosaurs intruding \ninto the city failed. \nThe humans in this world are \nabout to be extinct.{clear}We human should have never \nlaid our hands on 3rd Energy. \nThe military folks still don't \nget it even after all this. \nTheir plan is to fire the \n3rd Energy Missile in this \narea of the jungle and wipe \nthe whole area out.{clear}They plan to take the \n3rd Energy data disk to the \nMissile silo in the Jungle and \ninput the data in the warhead. \nThe missile is scheduled to \nstrike this area at noon \ntomorrow.  It's either the \nmissile first or us first...\nwho knows?</Text>
+    <Text> </Text>
+    <Text> </Text>
+    <Text>Velociraptor</Text>
+    <Text>               \n               \n               \n               \n               \n               \n               \n               {clear}               \nMeaning: \n     Swift Seizer \n               \nLength: \n     4.8 meters \n               \nHeight: \n     1.8 meters\n               \n               {clear}Observation Records \nWe originally thought of \ndinosaurs were just \n{0x0008}slow and dumb reptiles{0x0009}. \nWe soon realized this wasn't \ntrue at all. \nThe Velociraptor proved us \nall wrong.{clear}The claws on each foot is \nsharp as a blade, providing \nfor a powerful slash making \nthem a killing machine. \nThe long hard tail is used as \na balance when running in \nhigh speeds.  However, it is \nalso used as a weapon. \nTheir tail whip is so powerful \nthat it can shatter bones.{clear}Combat notes \nWhen and if you encounter \nthem, never show your back \nto them.  The moment you \nstart running away you \nbecome prey a to them. \nNo soldier has come back \nalive running away from \nthem.  The basic rule in \nthis world is to fight.{clear}The raptors are the most \nprosperous carnivorous \ndinosaurs in this world. \nThere live different flocks \nin various areas. \nTheir behavior and endurance \nare not all similar but \nthey all have one thing \nin common.  Speed. \nThey are fast. {clear}It is best not to use \nheavy weapons. {clear}Also on very rare occasions, \nthere have been encounters \nof blue raptors reported. \nTheir attack and toughness \nare said to be {0x0008}Ultra-Raptor{0x0009} \nlevel. \nGo hunt them down if you \ndare to claim yourself as a \n{0x0008}real{0x0009} hunter.</Text>
+    <Text>Pteranodon</Text>
+    <Text>               \n               \n               \n               \n               \n               \n               \n               {clear}               \nMeaning: \n     Winged and Toothless \n               \nLength: \n     3.0 meters \n               \nWingspan: \n     6.0 meters \n               {clear}Observation Records \nThey mostly feed on fish. \nThese flying reptiles are \ntyplically found near \nlakesides. \nThey hover and glide over \nthe water searching for fish \nthen with tremendous speed \nthey dive to snatch their \nprey.{clear}Although, their diet consist \nof mainly fish, they also \nfeed on small animals and \neven on mammals like us \nhumans. \nLately, the Pteranodons have \nstarted to attack on humans \nnear the facility trying to \nfight for their territory.{clear}Combat notes \nWhen they are circling \nabove you, it is very hard \nto shoot them. \nAlthough they seem to be \nflying slowly, but in fact are \nflying fairly fast. \nBefore they attack their prey, \nthey'll come and surround \nyou. {clear}That's when you should \nshoot them down.{clear}One thing you have to \nremember is that their skin \nof armor is thicker than it \nappears and if you are too \nbusy trying to shoot one \ndown, the others will attack \nyou off guard.  To lessen the \nchance of this happening \nit is important to choose \nan appropriate weapon.</Text>
+    <Text>Oviraptor</Text>
+    <Text>               \n               \n               \n               \n               \n               \n               \n               {clear}               \nMeaning: \n     Egg Robber \n               \nLength: \n     2.5 meters \n               \nHeight: \n     1.3 meters \n               \n               {clear}Observation Records \nEver since coming to this \nworld, we've encountered \nmany different dinosaurs. \nBut this is the first one we \nthought we could handle \neasily.  But we soon learned \nthat we were sadly mistaken. \nThey are equipped with two \narsenals. {clear}One is their sharp \nbeak and the other is their \npoison.{clear}The name {0x0008}Egg Robber{0x0009} was \noriginally given based on \nmisconception.  But it turns \nout that they use their beaks \nto crack the hard shells of \neggs and to protect \nthemselves they have \nacidic poison. \nThey are well equipped in \nboth offense and defense.{clear}Combat notes \nYou shouldn't stop moving \nwhen you fight them. \nSome will spit poison, \nsome will jump kick you. \nYou will have a better \nchance surviving if you \ncontinue to move around \nand attack.{clear}Their small size makes them \na pain.  They scamper and \nattack in groups.  They really \ngets on your nerves. \nTo counter them, a weapon \nwhich you can blaze away. \nIt should do the job.</Text>
+    <Text>Allosaurus</Text>
+    <Text>               \n               \n               \n               \n               \n               \n               \n               {clear}               \nMeaning: \n     Odd Lizard \n               \nLength: \n     8.5 meters \n               \nHeight: \n     3.0 meters\n               \n               {clear}Observation Record \nAnyone who encounters this \ndinosaur will first feel \nthreatened.  Although they're \nover 8 meters in height, \nthey can easily jump over \nobstructions which are \n2 meters high.  They will \nnot let a prey escape \nfrom them. {clear}Their prey is not limited to \nherbivores.  They also feed \non small carnivores.  You \nshould look out for the \nAllosaurus in areas where \nraptors are present.  There \nhave been sightings of the \nAllosaurus hunting in groups. \nWe figure there are quite \na number of them.{clear}Combat notes \nThey always position \nthemselves to face their \nenemy.  This is probably \nbecause they have a real \nhard armor on their head. \nShooting their head will \nnot really hurt them.{clear}A smart way of killing it \nis to go around to their \nside and shooting them in \nthe side of their stomach.\nHowever, their quick feet \nmakes it difficult to move \nto their side.  If this \ntechnique is difficult, \nyou'll have to rely on a \nweapon with fire power.</Text>
+    <Text>Triceratops</Text>
+    <Text>               \n               \n               \n               \n               \n               \n               \n               {clear}               \nMeaning: \n     Three Horned Face \n               \nLength: \n     8.5 meters \n               \nHeight: \n     3.0 meters \n               \n               {clear}Observation Record \nThey are herbivores and they \ncan be found in the outskirts \nof the city in the fields. \nThey protect the herd's eggs \nin herds.  They are social \ndinosaurs. {clear}They are very gentle in \nnature and they will not \nbecome vicious unless \nforced to.  Such as stepping \non their eggs.{clear}A half a year ago their attack \non the city was unstoppable. \nA section of the city was \ncompletely destroyed. \nThey seem to remember who \nharmed them.  Ever since \nthen, some of our soldiers \nhad to pay their lives for it.{clear}Combat Notes \nIf you dare fight them you \nhave already lost the fight. \nAn angry Triceratop is \nunstoppable.  The only thing \nthat will stop it is an even \nmore angry Triceratops.{clear}All we can do against them \nis to use heavy firearms \nand aim for their nose and \nget as far away as possible. \nSince they have priority for \ntheir social lives, they will \nnot come after you if you \nleave their territory. \nAll you can do is run.</Text>
+    <Text>Plesiosaurus</Text>
+    <Text>               \n               \n               \n               \n               \n               \n               \n               {clear}               \nMeaning: \n     Near Lizard \n               \nLength: \n     17.0 meters \n               \nHeight: \n     3.0 meters \n               \n               {clear}Observation Record \nOur life-line, the 3rd Energy \nReactor is located in the \nlake, underwater. \nHalf of the mechanics who \ngo under for preventative \nmaintenance never come back. \nThey probably become bait \nfor that giant thing.{clear}They are carnivorous reptiles. \nWith their long neck they \nsurface the head to breathe. \nIt's been reported that they \nhave been seen attacking the \nPteranodons from the water \nwith their long agile necks.{clear}When attacked by them, aim \nfor their head.  They'll try \nto pull their prey into the \nwater using their long necks. \nWhen you are attacked, the \nbest thing you can do is to \nfire back at them.{clear}When you encounter them in \nthe water, unfortunately the \nonly thing that will really \nhurt them is explosive \nartillary.  You also have to \nbe careful of the strong \nwater current they produce \nwhen they swim. \nIt may be wise to avoid \nfighting them in the water.</Text>
+    <Text>Tyrannosaurus Rex</Text>
+    <Text>               \n               \n               \n               \n               \n               \n               \n               {clear}               \nMeaning: \n     Tyrant Lizard King \n               \nLength: \n     14.5 meters \n               \nHeight: \n     4.8 meters \n               \n               {clear}Observation Record \nAs the name states it well, \nthey are the largest land \ncarnivores of this Cretaceous \nworld.  They act upon their \nhunter instinct and are \nalways on the hunt for prey \nin order to sustain energy \nfor their gigantic body.{clear}What is so special about \nthem is their implacability. \nOnce they set their eyes on \nits prey, they have a habit of \npursuing it.  A soldier \nonce reported that he saw \none swimming trying to follow \nits prey. {clear}Not to mention their \nsavageness. \n\nAfter making a toy of their \nprey, they will finish it \nwith a lethal bite.{clear}Combat Notes \nNo reports have come in with \nregards to killing a T-Rex. \nEvery soldier who tried to \nkill it have died.  There are \nhardly any combat data. \nIf we were forced to give an \nindirect conclusion, we would \nsay that the T-Rex has no \nreal weakness.{clear}Rumor has it that there was \none person who escaped \nfrom the implacable T-Rex \nchase.  She was not a soldier \nbut simply an Intelligence \nPersonnel.  Supposedly, good \nlooking about 20 years old.</Text>
+    <Text>Mosasaurus</Text>
+    <Text>               \n               \n               \n               \n               \n               \n               \n               {clear}               \nMeaning: \n     River of Mosa Lizard \n               \nLength: \n     6.0 meters \n               \nHeight: \n     0.8 meters \n               \n               {clear}Observation Record \nTheir main diet seems to \nbe the ammonites which live \nin the bottom of the waters. \nDuring breeding season many \nMosasaurus gather near the \nfacility in search of food.{clear}The jaws which are strong \nenough to crush even the \nhardest shells are without a \ndoubt, a threat to us humans. \nEven the hardest diver suit \nwill not stand up to a \nmosasaurus' bite.{clear}Despite their large size, \nthey are able to swim \nquickly.  Their mobilty is \nextraordinary.{clear}Combat Notes \nThe first thing to do is \nstopping them. \nShooting NEEDLES is one way. \nBut the most effective way \nis to blast them with the \nSHOCKWAVE and knock them \nout. {clear}SHOCKWAVING them is \nespecially useful when there \nare multiple enemies.{clear}They like to hide in small \nplaces. \nSo you should be cautious \nnear walls where there are \nholes and openings.</Text>
+    <Text>Giganotosaurus</Text>
+    <Text>               \n               \n               \n               \n               \n               \n               \n               {clear}               \nMeaning: \n     Giant Lizard \n               \nLength: \n     Over 20 meters \n               \nHeight: \n     Over  7 meters \n               \n               {clear}Observation Record \n{0x0008}There exists a dinosaur \nmuch larger than the T-Rex...{0x0009} \nsuch a rumor spread among \nthe soldiers. \nThe search for {0x0008}it{0x0009} began \n3 years ago. There have \nbeen no sightings.{clear}However, last summer deep \nin the jungle, a dead T-Rex \nwas found with huge teeth \nmarks on its throat. \nThe rumor was not going to \nend just as a rumor. \nNot for a while. {clear}Combat Notes \nThere is nothing known \nabout their attacking \nbehaviors. \nThis can mean two things. \nOne is that no such dinosaur \nexists.  Two is that every \nsoldier who did encounter it \nhave disappeared without a \ntrace.{clear}Soldiers who strayed away \nfrom the troop, approximately \n70% of their bodies have not \nbeen found. \nJudging from this, we cannot \ningnore the fact that there \njust may be a gigantic \ndinosaur who have swallowed \nour men whole. {clear}Anyone who has seen the \ngiant never lives to tell about \nit.</Text>
+    <Text>Inostrancevia</Text>
+    <Text>               \n               \n               \n               \n               \n               \n               \n               {clear}               \nLength: \n     3.7 meters \n               \nHeight: \n     1.2 meters \n               \n               {clear}Observation Records \nThe cave route which leads \nto the city, passes through \na volcano.  Two years ago, \nthe volcano suddenly started \nacting up.  From about that \nsame time the four-legged \ncreature began appearing. \nThey seem to favor hot \nand dark places.{clear}We believed that these \nfour-legged creatures were \nherbivores due to the \nscarcity of living organisms \nin their habitat. \nBut when one our men was \nattacked by one of them, \nwe learned that they were \nactually omnivores. {clear}Although they are slow, \nwe have to find ways to \ncounter them.{clear}Combat Record \nWe still have yet to find \na way to fight them. \nIt's their ultra-hard armor \nwhich they wear that makes \nthem so tough.  No regular \nfirearm will hurt them.  Their \njaws are also very strong. \nStrong enough to even crush \na helmet.{clear}The only effective way we \nknow so far is, when they \nattack they stand on their \nhind legs. \nThis is when you should \nshoot their stomach. \nIt seems to be their \nweakpoint. {clear}Currently a prototype weapon \nis in the late stages of \ndevelopment. \nThis mine like weapon when \ncomplete should flip them on \ntheir backs.  But we don't \nknow for sure if it will \nreally work.</Text>
+    <Text>Compsognathus</Text>
+    <Text>               \n               \n               \n               \n               \n               \n               \n               {clear}               \nMeaning: \n     Pretty Jaws \n               \nLength: \n     1.2 meters \n               \nHeight: \n     0.5 meters \n               \n               {clear}Commonly known as Compy. \nTheir diet consists of mainly \ninsects.  They are tiny \ndinosaurs.  They are typically \nno threat to humans. \nThey move in packs and their \nsocial life revolves around \ntheir pack.{clear}It's when they started \nnesting in our research \nfacility, is when they became \na nuisance. \n\nTheir eyes appears to be \nsimilar to that of the birds. {clear}We speculate that \nwhen they detect small shiny \nmetallic things, it is their \nbehavior to take it back to \ntheir nest. \nThis behavior has frquently \ncaused problems inside \nour facility.{clear}Combat Notes \nNo real notes has been taken \nsince they do not directly \ninflict harm to humans. \nHowever, we are thinking of \nways to stop them from \nstealing small belongings \nfrom the soldiers.</Text>
+</Strings>

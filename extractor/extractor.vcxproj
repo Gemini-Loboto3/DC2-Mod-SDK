@@ -152,16 +152,31 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Bitmap.cpp" />
+    <ClCompile Include="Decoding.cpp" />
     <ClCompile Include="DinoCrisis2.cpp" />
     <ClCompile Include="extractor.cpp" />
     <ClCompile Include="FileHandle.cpp" />
+    <ClCompile Include="jpeg_dec.cpp" />
+    <ClCompile Include="lodepng.cpp" />
+    <ClCompile Include="memstream.cpp" />
     <ClCompile Include="tinyxml2.cpp" />
+    <ClCompile Include="tjpgd.c" />
+    <ClCompile Include="xxhash.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Bitmap.h" />
     <ClInclude Include="DinoCrisis2.h" />
     <ClInclude Include="FileHandle.h" />
+    <ClInclude Include="hash64.h" />
+    <ClInclude Include="lodepng.h" />
+    <ClInclude Include="memstream.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="tinyxml2.h" />
+    <ClInclude Include="tjpgd.h" />
+    <ClInclude Include="typos.h" />
+    <ClInclude Include="xxh3.h" />
+    <ClInclude Include="xxhash.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

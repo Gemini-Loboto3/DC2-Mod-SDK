@@ -100,13 +100,17 @@ void CPackageDC::Reset()
 	while (!segment.empty()) { delete[] segment.back(); segment.pop_back(); }
 }
 
-void CPackageDC::Open(LPCTSTR filename)
+void CPackageDC::Open(LPCTSTR filename, bool is_pc)
 {
 	CBufferFile b(filename);
-	Open((u8*)b.GetBuffer());
+
+	if (b.GetSize() == 0) return;
+
+	if(is_pc) OpenPC((u8*)b.GetBuffer());
+	else Open((u8*)b.GetBuffer());
 }
 
-void CPackageDC::Open(u8* data)
+size_t CPackageDC::Open(u8* data)
 {
 	// clear lists
 	Reset();
@@ -125,8 +129,9 @@ void CPackageDC::Open(u8* data)
 		entry_size = 32;
 	}
 
+	size_t pos = 2048;
 	// process all the entries and cache all the data to the lists
-	for (int i = 0, pos = 2048, si = 2048 / entry_size;; i++, entry_d += entry_size)
+	for (int i = 0, si = 2048 / entry_size;; i++, entry_d += entry_size)
 	{
 		// assign current entry
 		DC2_ENTRY_GENERIC* entry = (DC2_ENTRY_GENERIC*)entry_d;
@@ -198,9 +203,108 @@ void CPackageDC::Open(u8* data)
 		// seek to the next sector containing data
 		pos += ssize;
 	}
+
+	return pos;
 }
 
-static LPCTSTR type_ext[] =
+size_t CPackageDC::OpenPC(u8* data)
+{
+	// clear lists
+	Reset();
+
+	// temp buffers
+	u8* seek, * entry_d = data;
+
+	// size values
+	u32* check = (u32*)&data[16];
+	int entry_size = 16;
+	pack_type = Type_DC1;
+	// determine if entries use 16 bytes (DC1/2) or 32 bytes (DC2)
+	if (check[0] == 0 && check[1] == 0 && check[2] == 0 && check[3] == 0)
+	{
+		pack_type = Type_DC2;
+		entry_size = 32;
+	}
+
+	size_t pos = 2048;
+	// process all the entries and cache all the data to the lists
+	for (int i = 0, si = 2048 / entry_size;; i++, entry_d += entry_size)
+	{
+		// assign current entry
+		DC2_ENTRY_GENERIC* entry = (DC2_ENTRY_GENERIC*)entry_d;
+		// temp caching buffer
+		u8* buffer = NULL;
+		// copy padded size for sector seek
+		int ssize = align(entry->size, 2048);
+		// set to current data segment
+		seek = &data[pos];
+
+		switch (entry->type)
+		{
+		case GPC_TEXTURE:	// stripped TIM pixel: deswizzle and add to segment list
+			// allocate a sector padded buffer
+			buffer = new u8[align(entry->size, 2048)];
+			// clear buffer and copy pixel data
+			ZeroMemory(buffer, align(entry->size, 2048));
+			memcpy(buffer, seek, entry->size);
+			// permanently pad size
+			entry->size = align(entry->size, 2048);
+			// unswizzle graphics
+			UnswizzleGfx((DC2_ENTRY_GFX*)entry, buffer);
+			break;
+		case GPC_LZSS0:		// compressed data: decompress
+		case GPC_LZSS2:
+			entry->size = Dc2LzssDec(seek, buffer, entry->size);
+			break;
+		case GPC_LZSS1:		// compressed TIM pixel: decompress and deswizzle
+		{
+			u8* temp;
+			// decompress
+			entry->size = Dc2LzssDec(seek, temp, entry->size);
+			// allocate a sector padded buffer
+			buffer = new u8[align(entry->size, 2048)];
+			// clear buffer and copy decompressed pixel
+			ZeroMemory(buffer, align(entry->size, 2048));
+			memcpy(buffer, temp, entry->size);
+			// we don't need the old buffer anymore
+			delete[] temp;
+			// permanently pad size
+			entry->size = align(entry->size, 2048);
+			// unswizzle graphics
+			UnswizzleGfx((DC2_ENTRY_GFX*)entry, buffer);
+		}
+		break;
+		case GPC_SOUND:
+		case GPC_MP3:
+		case GPC_DATA:		// generic literal data
+		case GPC_PALETTE:	// stripped TIM clut
+		case GPC_UNK:		// this seems to be used just by the font
+			// allocate buffer and copy data into it
+			buffer = new u8[entry->size];
+			memcpy(buffer, seek, entry->size);
+			break;
+		default:
+			i = si;			// prevent any further processing
+			break;
+		}
+
+		// for break condition
+		// needs to be here in order to prevent incorrect caching
+		if (i == si) break;
+
+		// add current entry to the entry list
+		ent.push_back(*entry);
+		// add cached buffer to the segment list
+		segment.push_back(buffer);
+
+		// seek to the next sector containing data
+		pos += ssize;
+	}
+
+	return pos;
+}
+
+static LPCSTR type_ext[] =
 {
 	"bin",
 	"tex",
@@ -222,7 +326,7 @@ int CPackageDC::GetIDByAddress(u32 address)
 			return i;
 	}
 
-	return 0;
+	return -1;
 }
 
 void CPackageDC::ExtractRaw(LPCTSTR dest)
@@ -279,4 +383,9 @@ void CPackageDC::ExtractRaw(LPCTSTR dest)
 	//WriteBOM(out);
 	//WriteUtf8(str, out);
 	//fclose(out);
+}
+
+void CPackageDC::ExtractRawPC(LPCSTR dest)
+{
+
 }

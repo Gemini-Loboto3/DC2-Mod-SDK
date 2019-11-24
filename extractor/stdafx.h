@@ -20,12 +20,7 @@
 #define TESTDLL_API __declspec(dllimport)
 #endif
 
-typedef unsigned char  u8;
-typedef unsigned short u16;
-typedef unsigned int   u32;
-typedef signed char    s8;
-typedef signed short   s16;
-typedef signed int     s32;
+#include <typos.h>
 
 #define MAGIC(a,b,c,d)		(a | (b<<8) | (c<<16) | (d<<24))
 #define Align(val,align)	((((val-1)/align)+1)*align)
