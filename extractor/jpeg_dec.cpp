@@ -65,9 +65,10 @@ uint16_t output_func(JDEC* jd, void* bitmap, JRECT* rect)
 
 __inline u8 c5(u32 col)
 {
-	col >>= 3;
+	return col;
+	//col >>= 3;
 	//return (col >> 3) << 3;
-	return (col << 3) | (col >> 2);
+	//return (col << 3) | (col >> 2);
 }
 
 void write_bmp(CBitmap& dst, int w, int h, u8* data)

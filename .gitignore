@@ -300,3 +300,8 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+/extractor/PC JP
+/extractor/PC US
+/extractor/PSX
+/extractor/ROOM
+/extractor/music

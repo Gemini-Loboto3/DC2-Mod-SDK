@@ -435,6 +435,13 @@ void CBitmap::Blt(CBitmap &src, int src_x, int src_y, int dst_x, int dst_y, int 
 			this->setPixel(dst_x + x, dst_y + y, src.getPixel(src_x + x, src_y + y));
 }
 
+void CBitmap::Fill(u32 col)
+{
+	u32* d = this->pData;
+	for (size_t i = 0, si = w * h; i < si; i++, d++)
+		*d = col;
+}
+
 void CBitmap::SavePng(LPCSTR name)
 {
 	u32 *image = new u32[this->w * this->h], *out = image;

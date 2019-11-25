@@ -80,6 +80,8 @@ void test()
 
 			if (f.GetSize() == 0)continue;
 
+			printf("Extracting %s\n", path);
+
 			size_t pos = 0;
 			for (int i = 0;; i++)
 			{
@@ -88,10 +90,10 @@ void test()
 					break;
 				CBitmap bmp, bm2;
 				// dump bg
-				sprintf_s(path, MAX_PATH, "ROOM\\ROOM%d%02X_%02d.jpg", Stage, Room, i);
-				FILE* fl = fopen(path, "wb");
-				fwrite(dc.segment[1], dc.ent[1].size, 1, fl);
-				fclose(fl);
+				//sprintf_s(path, MAX_PATH, "ROOM\\ROOM%d%02X_%02d.jpg", Stage, Room, i);
+				//FILE* fl = fopen(path, "wb");
+				//fwrite(dc.segment[1], dc.ent[1].size, 1, fl);
+				//fclose(fl);
 				jpegtest(dc.segment[1], dc.ent[1].size, bmp);
 				sprintf_s(path, MAX_PATH, "ROOM\\ROOM%d%02X_%02d.png", Stage, Room, i);
 				bmp.SavePng(path);
@@ -117,22 +119,20 @@ void test()
 				if (gi == -1) continue;
 				u8* temp;
 				size_t dsize = Dc2LzssDec(dc.segment[gi], temp, dc.ent[gi].size);
-				//UnswizzleGfx(, dsize);
-				fl = fopen("test.bin", "wb");
-				fwrite(temp, dsize, 1, fl);
-				fclose(fl);
 				// generate
 				u16* img = (u16*)temp;
 				// fix transparency
-				for (int j = 0; j < dsize / 2; j++) if (!(img[j] & 0x8000)) img[j] = 0;
+				for (size_t j = 0; j < dsize / 2; j++) if (!(img[j] & 0x8000)) img[j] = 0;
 				bmp.Create(18, dsize / 36);
+				bmp.Fill(0);
 				for (int y = 0, sy = bmp.h; y < sy; y++)
 					for (int x = 0, sx = bmp.w; x < sx; x++)
 						bmp.setPixel(x, y, Convert_color(*img++));
-				bm2.Create(256, 320);
+				bm2.Create(256, 256);
+				bm2.Fill(0);
 				// recomposite
 				for (int j = 0, js = bmp.h / 18; j < js; j++)
-					bm2.Blt(bmp, 0, j * 18, (j % 18) * 18, (j / 18) * 18, 18, 18);
+					bm2.Blt(bmp, 1, j * 18 + 1, (j % 16) * 16, (j / 16) * 16, 16, 16);
 
 				sprintf_s(path, MAX_PATH, "ROOM\\ROOM%d%02X_%02d_mask.png", Stage, Room, i);
 				bm2.SavePng(path);
@@ -231,6 +231,7 @@ void ExtractRoomStrings()
 					u8* d = dc.segment[i];
 					u16* p = (u16*)dc.segment[i + 1];
 					CBitmap bmp;
+					bmp.Fill(0);
 					if (pal->w == 256 && pal->h == 1)
 					{
 						bmp.Create(gfx->w * 2, gfx->h);
@@ -311,7 +312,7 @@ void extract_core()
 int main()
 {
 	test();
-	extract_core();
+ 	extract_core();
 	ExtractRoomStrings();
 	ExtractExeStrings();
 

@@ -75,6 +75,7 @@ public:
 	void   Create(size_t w, size_t h);
 
 	void   Blt(CBitmap &src, int src_x, int src_y, int dst_x, int dst_y, int dst_w, int dst_h);
+	void   Fill(u32 col);
 	void   SavePng(LPCSTR name);
 
 	bool   IsOpen() { return pData != nullptr ? true : false; }
