@@ -27,21 +27,21 @@ public:
 		std::string n;
 	};
 
-	bool PushHash(const void* data, size_t size, LPCSTR name)
+	int PushHash(const void* data, size_t size, LPCSTR name)
 	{
 		XXH64_hash_t hash = XXH64(data, size, 0);
 		Entry h = { hash, name };
 
 		auto f = std::find(hashes.begin(), hashes.end(), h);
 		if (f != hashes.end())
-			return true;
+			return f - hashes.begin();
 		//for (size_t i = 0, si = hashes.size(); i < si; i++)
 		//	if (hash == hashes[i])
 		//		return;
 
 		hashes.push_back({ hash, name });
 		SortByHash();
-		return false;
+		return -1;
 	}
 
 	//void Write(LPCSTR out_name)

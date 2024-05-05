@@ -3,14 +3,24 @@
 
 static const wchar_t encode[] =
 {
-	L" @@@@.§…@@｢｣～@@@"		// 00
+	L" @@@@.§…“”｢｣～←→@"			// 00
 	L"@@@@@①②③④⑤@@ＳＯＲＴ"		// 10
-	L"@!@#@%&'()@+,-./"	// 20
-	L"0123456789:;<=>?"		// 30
-	L"@ABCDEFGHIJKLMNO"		// 40
-	L"PQRSTUVWXYZ[\\]^@"	// 50
-	L"`abcdefghijklmno"		// 60
+	L"@!@#@%&'()@+,-·/"			// 20
+	L"0123456789:;<=>?"			// 30
+	L"@ABCDEFGHIJKLMNO"			// 40
+	L"PQRSTUVWXYZ[\\]^@"		// 50
+	L"`abcdefghijklmno"			// 60
 	L"pqrstuvwxyz《@》￥@"		// 70
+	L"々一あいうぇえおかがきぎくぐけげ"
+	L"こごさざしじすずせぜそぞただちっ"
+	L"つづてでとどなにぬねのはばぱひび"
+	L"ふぶへべほぼまみむめもゃやゅゆょ"
+	L"よらりるれろわをんァアィイゥウェ"
+	L"エォオカガキギクグケゲコゴサザシ"
+	L"ジスズセゼソタダチッツテデトドナ"
+	L"ニヌネノハバパビピフブプヘベペホ"
+	L"ボポマミムメモャヤュユョラリルレ"
+	L"ロワンヴヶ"
 };
 
 size_t u8_wc_toutf8(char *dest, uint32_t ch);
@@ -25,18 +35,40 @@ std::string DecodeString(u16 *data, size_t *size)
 	{
 		u16 c = *data++;
 
-		switch (c)
+		switch (c & 0xf000)
 		{
-		case 0xF000:
-			if (*size)
-				*size = (size_t)(data - start);
-			return str;
+		case 0x1000:
+			sprintf_s(temp, sizeof(temp), "{color %d}", c & 0xF);
+			str += temp;
+			break;
+		case 0x2000:
+			str += "{pic}";
+			break;
 		case 0x4000:
 			str += "\\n";
 			break;
 		case 0x5000:	// non-instant text scrolling
 			str += "{clear}";
 			break;
+		case 0x6000:
+			str += "{pause}";
+			break;
+		case 0x7000:
+			sprintf_s(temp, sizeof(temp), "{delay %d}", c);
+			str += temp;
+			break;
+		case 0x8000:
+		case 0x9000:
+		case 0xA000:
+		case 0xB000:
+		case 0xC000:
+		case 0xD000:
+		case 0xE000:
+			sprintf_s(temp, sizeof(temp), "{0x%04X}", c);
+			str += temp;
+			break;
+		case 0xF000:
+			return str;
 		default:
 			if (encode[c & 0x7f] == L'@')
 			{
@@ -46,6 +78,68 @@ std::string DecodeString(u16 *data, size_t *size)
 			else
 			{
 				u8_wc_toutf8(temp, encode[c & 0x7f]);
+				str += temp;
+			}
+		}
+	}
+
+	return str;
+}
+
+std::string DecodeStringJp(u16* data)
+{
+	std::string str;
+	char temp[32];
+	u16* start = data;
+
+	while (1)
+	{
+		u16 c = *data++;
+
+		switch (c & 0xf000)
+		{
+		case 0x1000:
+			sprintf_s(temp, sizeof(temp), "{color %d}", c & 0xF);
+			str += temp;
+			break;
+		case 0x2000:
+			str += "{pic}";
+			break;
+		case 0x4000:
+			str += "\\n";
+			break;
+		case 0x5000:	// non-instant text scrolling
+			str += "{clear}";
+			break;
+		case 0x6000:
+			str += "{pause}";
+			break;
+		case 0x7000:
+			sprintf_s(temp, sizeof(temp), "{delay %d}", c);
+			str += temp;
+			break;
+		case 0x8000:
+		case 0x9000:
+		case 0xA000:
+		case 0xB000:
+		case 0xC000:
+		case 0xD000:
+		case 0xE000:
+			sprintf_s(temp, sizeof(temp), "{0x%04X}", c);
+			str += temp;
+			break;
+		case 0xF000:
+			return str;
+		default:
+			c &= 0xfff;
+			if(c >= _countof(encode))
+			{
+				sprintf_s(temp, sizeof(temp), "{0x%04X}", c);
+				str += temp;
+			}
+			else
+			{
+				u8_wc_toutf8(temp, encode[c]);
 				str += temp;
 			}
 		}

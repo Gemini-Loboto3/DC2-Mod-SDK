@@ -58,6 +58,14 @@ typedef struct tagDc2EntryGfx
 	u16 w, h;		// framebuffer size
 } DC2_ENTRY_GFX;
 
+typedef struct tagDc2EntryVAB
+{
+	u32 type;
+	u32 size;
+	u32 addr;
+	u16 id, id2;
+} DC2_ENTRY_VAB;
+
 typedef struct tagDc2EntryMp3
 {
 	u32 type;
@@ -72,8 +80,8 @@ typedef struct tagDc2EntryMp3
 typedef struct tagGianEntry
 {
 	u8 reverb;		// only bit 1<<3 is checked
-	u8 unk1;
-	u8 unk2;
+	u8 vol;
+	u8 pan;
 	u8 sample_note;	// *8 to obtain the actual value
 	u16 note;
 	u16 note_copy;	// unused, contains the same value as note>>8
@@ -82,6 +90,11 @@ typedef struct tagGianEntry
 	u16 adsr2;
 	u16 addr;		// entry base-addr*8 to obtain the sample address
 } GIAN_ENTRY;
+
+typedef struct tagGianHeader
+{
+
+} GIAN_HEADER;
 
 /////////////////////////////////
 // DCM - Dino crisis models	   //

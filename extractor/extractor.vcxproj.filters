@@ -48,6 +48,12 @@
     <ClCompile Include="memstream.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="patch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="psound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DinoCrisis2.h">
@@ -84,6 +90,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="typos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="patch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="psound.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
